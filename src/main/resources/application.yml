@@ -22,7 +22,7 @@ liquibase:
     default:
       enabled: true
       change-log: "classpath:db/liquibase-changelog.xml"
-      drop-first: true
+      drop-first: false
 # vertx:
 #   mysql:
 #     client:
